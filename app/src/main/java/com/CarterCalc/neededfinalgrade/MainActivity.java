@@ -3,7 +3,7 @@
  * @Author Carter Mooring
  */
 
-package com.example.neededfinalgrade;
+package com.CarterCalc.neededfinalgrade;
 
 import androidx.appcompat.app.AppCompatActivity;
 

@@ -2,7 +2,7 @@
  * Last edited: Oct. 9th, 2019
  * @Author Carter Mooring
  */
-package com.example.neededfinalgrade;
+package com.CarterCalc.neededfinalgrade;
 
 public class GradeCalculator {
     private float minAvg;

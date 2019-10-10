@@ -1,4 +1,4 @@
-package com.example.neededfinalgrade;
+package com.CarterCalc.neededfinalgrade;
 
 import org.junit.Test;
 
