@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackground"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/desiredGradeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="@string/desiredGrade" />
+
+        <EditText
+            android:id="@+id/desiredGradeEdit"
+            android:maxLength="1"
+            android:digits="ABCDF"
+            android:textSize="18sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/characterLetterhint" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/minAvgLayout"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="@string/minAvgText"/>
+
+        <EditText
+            android:id="@+id/minAvgEdit"
+            android:textSize="18sp"
+            android:inputType="numberDecimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/numAvgEdit"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/currentAvgLayout"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="@string/curAvgText"/>
+
+        <EditText
+            android:id="@+id/currentAvgEdit"
+            android:textSize="18sp"
+            android:inputType="numberDecimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/numAvgEdit"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/finalPercentageLayout"
+        android:padding="16dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="@string/finPerText"/>
+
+        <EditText
+            android:id="@+id/finalPercentageEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:textSize="18sp"
+            android:hint="@string/finExEdit" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/calculateButton"
+        android:textSize="18sp"
+        android:textColor="@color/colorText"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:background="@color/colorButton"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/CalcButton"/>
+
+    <TextView
+        android:id="@+id/requiredScoreText"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/gradeNeeded"/>
+
+    <TextView
+        android:id="@+id/desiredGradeDisplay"
+        android:padding="16dp"
+        android:textSize="72sp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gradeWanted" />
+
+</LinearLayout>

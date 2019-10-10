@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">NeededFinalGrade</string>
+    <string name="desiredGrade">Desired grade: </string>
+    <string name="characterLetterhint">character letter grade here</string>
+    <string name="minAvgText">Min Average Required: </string>
+    <string name="numAvgEdit">numeric avg here</string>
+    <string name="curAvgText">Current Avg Required: </string>
+    <string name="finPerText">Final percentage weight: </string>
+    <string name="finExEdit">final exam % here</string>
+    <string name="CalcButton">Calculate!</string>
+    <string name="gradeNeeded"></string>
+    <string name="gradeWanted"></string>
+</resources>
